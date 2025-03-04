@@ -1,29 +1,25 @@
-## Preview
-![Bike Sharing Dataset Analysis Dashboard Streamlit Preview](https://drive.google.com/file/d/1RvpyB7VPWoFxiSZP4j8EqYn22yXvbpb_/view?usp=sharing)
-
 ## Data Analysis Project
+Repositori ini berisi proyek analisis dataset bike-sharing. Deployment dilakukan menggunakan **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
 
-Repository ini berisi proyek data analytics yang saya kerjakan. Deployment in **Streamlit** <img src="https://user-images.githubusercontent.com/7164864/217935870-c0bc60a3-6fc0-4047-b011-7b4c59488c91.png" alt="Streamlit logo"></img>
+## Preview
+Berikut adalah Preview dari dashboard streamlit yang dibuat
+![Bike Sharing Dataset Analysis Dashboard Streamlit Preview](/preview_dashboard.jpg)
+
 
 ## Deskripsi
 
-Proyek ini bertujuan untuk menganalisis data pada Bike Sharing Dataset. Tujuan akhirnya adalah untuk menghasilkan wawasan dan informasi yang berguna dari data yang dianalisis.
+Proyek ini bertujuan untuk menganalisis data pada Bike Sharing Dataset yang diberikan pada program Coding Camp by DBS melalui Platform Dicoding. Dengan analisis yang dilakukan diharapkan dapat memperoleh jawaban
+dari tujuan analisis dilakukan.
 
-## Struktur Direktori
+## Instalation
 
-- **/data**: Direktori ini berisi data yang digunakan dalam proyek, dalam format .csv .
-- **/dashboard**: Direktori ini berisi main.py yang digunakan untuk membuat dashboard hasil analisis data.
-- **notebook.ipynb**: File ini yang digunakan untuk melakukan analisis data.
-
-## Instalasi
-
-1. Clone repository ini ke komputer lokal Anda menggunakan perintah berikut:
+1. Clone repository ini ke lokal menggunakan perintah berikut:
 
    ```shell
-   git clone https://github.com/ariniamsr/bike-sharing.git
+   git clone https://github.com/PIP-Bravo/bike-sharing-analys.git
    ```
 
-2. Pastikan Anda memiliki lingkungan Python yang sesuai dan pustaka-pustaka yang diperlukan. Anda dapat menginstal pustaka-pustaka tersebut dengan menjalankan perintah berikut:
+2. Install semua pustaka yang diperlukan dengan menjalankan perintah berikut:
 
     ```shell
     pip install streamlit
@@ -31,17 +27,14 @@ Proyek ini bertujuan untuk menganalisis data pada Bike Sharing Dataset. Tujuan a
     ```
 
 ## Penggunaan
-1. Masuk ke direktori proyek (Local):
+1. Masuk ke direktori proyek (Local)
 
     ```shell
-    cd bike-sharing/dashboard/
+    cd bike-sharing-analys/dashboard/
     streamlit run dashboard.py
     ```
-    Atau bisa dengan kunjungi website ini [Project Data Analytics](https://bike-sharing-ariniamsr.streamlit.app/)
+2. Kunjungi website deployment
 
-## Kontribusi
-Anda dapat berkontribusi pada proyek ini dengan melakukan pull request. Pastikan untuk menjelaskan perubahan yang Anda usulkan secara jelas dan menyeluruh.
+   Akses di : https://bike-sharing-analysis-mc200d5y1479.streamlit.app/
 
-## Review
-berikut merupakan penilaian dari Dicoding
-![Bike Sharing Dashboard Review](https://raw.githubusercontent.com/ariniamsr/bike-sharing/main/Penilaian%20dari%20dicoding.png)
+Template ReadMe terinspirasi dari : https://github.com/kevinsimorangkir2001/dashboard-bike-sharing-kevinc
