@@ -33,8 +33,8 @@ def create_by_month(df):
 
 # MENYIAPKAN DATAFRAME
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("dashboard/day.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 
 day_df.sort_values(by='date',inplace=True)
 day_df['date'] = pd.to_datetime(day_df['date']) 
